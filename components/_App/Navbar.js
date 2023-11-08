@@ -102,7 +102,7 @@ const Navbar = () => {
                     <ul className='dropdown-menu'>
                       <li className='nav-item'>
                         <Link href='/' activeClassName='active'>
-                          <a className='nav-link'>Home Demo - 1</a>
+                          <a className='nav-link'>Home Demo - 1 New</a>
                         </Link>
                       </li>
 
