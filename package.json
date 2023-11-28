@@ -3,7 +3,9 @@
   "version": "0.1.2",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "server": "npx nodemon index.js --prefix server",
+    "client": "next dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "build": "next build",
     "export": "next export",
     "start": "next start",
