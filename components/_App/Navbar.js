@@ -65,7 +65,7 @@ const Navbar = () => {
               <div className='logo'>
                 <Link href='/'>
                   <a>
-                    <img src='/images/logo.png' alt='logo' />
+                    <img src='/images/logo_new.png' alt='logo' />
                   </a>
                 </Link>
               </div>
